@@ -2,7 +2,7 @@
 A static web tool for structural biology researchers. Enter a PDB ID to instantly generate direct download links for corresponding structure files and related database pages.
 
 **Project thumbnail:**
-![image](src/e1.jpg)
+![image](public/e1.jpg)
 
 **Read this in other languages:[English](README.md), [中文](README_zh.md)**
 

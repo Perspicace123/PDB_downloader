@@ -1,6 +1,9 @@
 **离线 PDB 链接生成器**
 一款专为结构生物学研究人员设计的静态网络工具。输入 PDB 编号即可立即生成对应结构文件及相关数据库页面的直接下载链接。
 
+**在线网页预览:**
+![image](public/e1.jpg)
+
 **Read this in other languages: [English](README.md), [中文](README_zh.md)**
 
 **在线试用**
