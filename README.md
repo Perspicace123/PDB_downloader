@@ -6,7 +6,7 @@ A static web tool for structural biology researchers. Enter a PDB ID to instantl
 
 ## Preview
 
-![Thumbnail](public/e1.jpg)
+![image](public/e1.jpg)
 
 ---
 

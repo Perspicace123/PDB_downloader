@@ -6,7 +6,7 @@
 
 ## 预览
 
-![缩略图](public/e1.jpg)
+![image](public/e1.jpg)
 
 ---
 
