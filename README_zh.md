@@ -32,8 +32,8 @@ https://pdbdownloader.netlify.app
 1. 克隆仓库
 
    ```bash
-   git clone <repository-url>
-   cd <project-folder>
+   git clone https://github.com/Perspicace123/PDB_downloader.git
+   cd PDB_downloader
    ```
 
 2. 安装依赖

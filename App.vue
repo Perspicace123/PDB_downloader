@@ -69,9 +69,8 @@
   </div>
 
   <footer>
-    <div style="margin-bottom: 12px;">PDB Link Generator &bull; Offline Secure &bull; {{ currentYear }}</div>
     <div class="author-info" style="font-family: 'Noto Serif SC', 'Source Han Serif SC', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;">
-      Developed by Liao H. | Contact: <span v-html="contactEmail"></span>
+      Github：<a href="https://github.com/Perspicace123/PDB_downloader" target="_blank">PDB Download Link Generator</a>
     </div>
   </footer>
 </template>
@@ -84,8 +83,6 @@ const pdbIdInput = ref('');
 const generatedPdbId = ref('');
 const generatedLinks = ref([]);
 const showResults = ref(false);
-const currentYear = ref(new Date().getFullYear());
-const contactEmail = ref('');
 
 // --- Template Refs ---
 const proteinPdbIdInputRef = ref(null);
@@ -93,11 +90,6 @@ const resultsSectionRef = ref(null);
 
 // --- Lifecycle Hooks ---
 onMounted(() => {
-  // Generate contact email
-  const parts = ['liaohaocong', 'stu2025','jnu', 'edu', 'cn'];
-  const email = parts[0] + '@' + parts[1] + '.' + parts[2] + '.' + parts[3] + '.' + parts[4];
-  contactEmail.value = `<a href="mailto:${email}">${email}</a>`;
-
   // Auto-focus the input field
   proteinPdbIdInputRef.value?.focus();
 

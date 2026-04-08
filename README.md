@@ -32,8 +32,8 @@ https://pdbdownloader.netlify.app
 1. Clone the repository
 
    ```bash
-   git clone <repository-url>
-   cd <project-folder>
+   git clone https://github.com/Perspicace123/PDB_downloader.git
+   cd PDB_downloader
    ```
 
 2. Install dependencies
